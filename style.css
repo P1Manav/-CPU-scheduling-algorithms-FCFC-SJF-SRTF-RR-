@@ -1,6 +1,6 @@
 :root {
-    --primary-color: #1d8cf8;
-    --secondary-color: #363569;
+    --primary-color: rgb(204, 51, 255);
+    --secondary-color: rgb(0, 204, 0);
 }
 
 * {
@@ -16,7 +16,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: rgb(0,0,0);
-    color: rgb(255,255,255);
+    color: var(--secondary-color);
     font-family: 'Open Sans', sans-serif;
 }
 .wrapper{
@@ -43,7 +43,7 @@ body {
 
 a {
     text-decoration: none;
-    color: #333;
+    color: var(--secondary-color);
 }
 
 a:hover {
@@ -60,7 +60,7 @@ a:hover {
 
 header {
     background-color: var(--primary-color);
-    color: white;
+    color: var(--secondary-color);
     padding-top: 30px;
     min-height: 70px;
     border-bottom: #e8491d 3px solid;
@@ -91,7 +91,7 @@ header nav li {
 }
 
 header nav a {
-    color: white;
+    color: var(--secondary-color);
     transition: transform 0.3s ease-in-out;
 }
 
@@ -119,10 +119,12 @@ label{
 
 input{
     outline: none;
-    border: none;
-    height: 25px;
+    border: 2px solid rgb(255,255,255);
+    height: 30px;
     margin: 0 5px;
     text-align: center;
+    background-color: rgb(0,0,0);
+    color: var(--secondary-color);
 }
 
 #inp_tq{
@@ -138,7 +140,7 @@ button {
 button {
     cursor: pointer;
     background-color: var(--primary-color);
-    color: white;
+    color: var(--secondary-color);
     padding: 10px 25px;
     border-radius: 5px;
     margin: 15px 0;
@@ -172,11 +174,11 @@ button:hover {
 
 .table-container th {
     background-color: var(--primary-color);
-    color: white;
+    color: var(--secondary-color);
 }
 
 .table-container tr:nth-child(even) {
-    background-color: #f2f2f2;
+    background-color: rgb(0,0,0);
 }
 
 .average-values{
@@ -185,10 +187,11 @@ button:hover {
 
 footer {
     background-color: var(--primary-color);
-    color: white;
+    color: rgb(0,0,0);
     padding: 15px;
     text-align: center;
     margin-top: 15px;
+    font-size: 25px;
 }
 
 footer p {
@@ -200,7 +203,7 @@ footer p {
     display: flex;
     flex-direction: column;
     margin: 10px;
-    background-color: #f5f5f5;
+    background-color: rgb(0,0,0);
     border: 1px solid #ddd;
     border-radius: 5px;
     padding: 15px;
@@ -240,7 +243,7 @@ footer p {
     right: -10px;
     margin: 0px;
     font-size: 14px;
-    color: #666;
+    color: rgb(255,255,255);
     background-color:  rgb(0,0,0);
     border-radius: 5px;
     padding: 5px;
