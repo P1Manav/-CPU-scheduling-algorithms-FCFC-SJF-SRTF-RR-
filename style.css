@@ -16,7 +16,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: rgb(0,0,0);
-    color: var(--secondary-color);
+    color: rgb(255,255,255);
     font-family: 'Open Sans', sans-serif;
 }
 .wrapper{
@@ -43,7 +43,7 @@ body {
 
 a {
     text-decoration: none;
-    color: var(--secondary-color);
+    color: rgb(255,255,255);
 }
 
 a:hover {
@@ -60,7 +60,7 @@ a:hover {
 
 header {
     background-color: var(--primary-color);
-    color: var(--secondary-color);
+    color: white;
     padding-top: 30px;
     min-height: 70px;
     border-bottom: #e8491d 3px solid;
@@ -91,7 +91,7 @@ header nav li {
 }
 
 header nav a {
-    color: var(--secondary-color);
+    color: white;
     transition: transform 0.3s ease-in-out;
 }
 
@@ -124,7 +124,7 @@ input{
     margin: 0 5px;
     text-align: center;
     background-color: rgb(0,0,0);
-    color: var(--secondary-color);
+    color: rgb(255,255,255);
 }
 
 #inp_tq{
@@ -140,7 +140,7 @@ button {
 button {
     cursor: pointer;
     background-color: var(--primary-color);
-    color: var(--secondary-color);
+    color: white;
     padding: 10px 25px;
     border-radius: 5px;
     margin: 15px 0;
@@ -174,7 +174,7 @@ button:hover {
 
 .table-container th {
     background-color: var(--primary-color);
-    color: var(--secondary-color);
+    color: rgb(0,0,0);
 }
 
 .table-container tr:nth-child(even) {
