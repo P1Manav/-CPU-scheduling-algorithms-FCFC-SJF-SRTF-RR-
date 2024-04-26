@@ -1,1 +1,1 @@
-# -CPU-scheduling-algorithms-FCFC-SJF-SRTF-RR-
+# -CPU-scheduling-algorithms-FCFS-SJF-SRTF-RR-
